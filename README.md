@@ -1,8 +1,13 @@
 # Bellos Application Manager
+**Bellande Operating System Scripting Language Managing Scripts**
 
 ![Bellos Application Manager](bellos_application_manager.png)
 
-Bellande Operating System Scripting Language Managing Scripts
+## Bellos Scripting Language Installer
+- https://github.com/Architecture-Mechanism/bellos_installer
+
+## Bellos Scripting Language
+- https://github.com/Architecture-Mechanism/bellos
 
 
 ## License
