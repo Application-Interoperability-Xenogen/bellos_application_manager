@@ -18,9 +18,6 @@
 # Adding Directory to Path
 import sys
 
-sys.path.append("gui")
-sys.path.append("utils")
-
 from PyQt6.QtWidgets import QApplication
 from gui.bellos_main_window import BellosMainWindow
 
