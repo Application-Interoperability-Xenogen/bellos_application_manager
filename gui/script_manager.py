@@ -13,12 +13,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-import subprocess
-import os
-import signal
-import threading
-import json
-from typing import Optional, Dict, List
+from header_imports import *
 
 class ScriptManager:
     def __init__(self):

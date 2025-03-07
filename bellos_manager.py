@@ -15,7 +15,6 @@
 
 #!/usr/bin/env python3
 
-# Adding Directory to Path
 import sys
 
 from PyQt6.QtWidgets import QApplication

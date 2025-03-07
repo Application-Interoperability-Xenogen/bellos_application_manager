@@ -13,14 +13,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-from PyQt6.QtWidgets import (QMainWindow, QDockWidget, QFileDialog, QMessageBox, QTabWidget)
-from PyQt6.QtCore import Qt
-from PyQt6.QtGui import QAction, QIcon
-from script_editor import ScriptEditor
-from file_explorer import FileExplorer
-from terminal import Terminal
-from project_system import ProjectSettings
-from script_manager import ScriptManager
+from header_imports import *
 
 class BellosMainWindow(QMainWindow):
     def __init__(self):

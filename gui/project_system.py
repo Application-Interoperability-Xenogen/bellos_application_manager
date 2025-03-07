@@ -13,11 +13,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-from PyQt6.QtWidgets import (QWidget, QVBoxLayout, QFormLayout, QLineEdit, 
-                           QPushButton, QComboBox, QSpinBox, QCheckBox,
-                           QFileDialog, QMessageBox, QHBoxLayout)
-import json
-import os
+from header_imports import *
 
 class ProjectSettings(QWidget):
     def __init__(self):

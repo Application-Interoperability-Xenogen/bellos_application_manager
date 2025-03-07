@@ -13,11 +13,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-import os
-from PyQt6.QtWidgets import QTreeView, QAbstractItemView
-from PyQt6.QtCore import Qt, pyqtSignal
-from PyQt6.QtGui import QStandardItemModel, QStandardItem
-from typing import Optional
+from header_imports import *
 
 class FileExplorer(QTreeView):
     file_selected = pyqtSignal(str)
